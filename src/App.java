@@ -1,6 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * A classe App representa a aplicação principal que interage com a classe ContaTerminal,
+ * solicitando informações ao usuário e exibindo uma mensagem de boas-vindas com os detalhes da conta.
+ */
 public class App {
+    
+    /**
+     * Método principal que inicia a execução da aplicação.
+     *
+     * @param args Os argumentos de linha de comando (não utilizados neste caso).
+     * @throws Exception Exceção genérica (não utilizada neste caso).
+     */
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         ContaTerminal ct = new ContaTerminal();
